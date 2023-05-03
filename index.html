@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" id="result" readonly placeholder="Enter Here">
+      <br>
+      <input type="button" value="7" onclick="handleCalculate('7')" class="btn">
+      <input type="button" value="8" onclick="handleCalculate('8')" class="btn">
+      <input type="button" value="9" onclick="handleCalculate('9')" class="btn">
+       <input type="button" value="/" onclick="handleCalculate('/')" class="btn btn2">
+   
+            <br>
+      <input type="button" value="4" onclick="handleCalculate('4')" class="btn">
+      <input type="button" value="5" onclick="handleCalculate('5')" class="btn">
+      <input type="button" value="6" onclick="handleCalculate('6')" class="btn">
+         <input type="button" value="*" onclick="handleCalculate('*')" class="btn btn2">
+
+      <br>
+            <input type="button" value="1" onclick="handleCalculate('1')" class="btn">
+      <input type="button" value="2" onclick="handleCalculate('2')" class="btn">
+      <input type="button" value="3" onclick="handleCalculate('3')" class="btn">
+      <input type="button" value="+" onclick="handleCalculate('+')" class="btn btn2">
+      <br>
+      <input type="button" value="." onclick="handleCalculate('.')" class="btn">
+            <input type="button" value="0" onclick="handleCalculate('0')" class="btn">
+     <input type="button" value="=" onclick="calculateResult()" class="btn">
+           <input type="button" value="-" onclick="handleCalculate('-')" class="btn btn2">
+      <br>
+        <input type="button" value="C" onclick="clearResult()" class="btn btn1">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
